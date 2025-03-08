@@ -1,0 +1,46 @@
+body
+{
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#a5a5a5;
+    font-size:15px;
+}
+.profile-card
+{
+    background-color:#a9a9a9;
+    width:300px;
+    text-align:center;
+}
+.profile-image img
+{
+    width:150px;
+    margin:15px auto;
+}
+.profile-content
+{
+    padding:19px;
+}
+.profile-content h1
+{
+    margin:5px;
+    color:orange;
+}
+.profile-content p
+{
+    color:gray;
+    margin:15px 0;
+}
+.social-icons
+{
+    margin:19px;
+}
+@media (max-width:500px)
+{
+    .profile-card
+    {
+        width:100%;
+        color:purple;
+    }
+}
