@@ -1,0 +1,38 @@
+body
+{
+    font-family:Calibri;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#a5a5a5;
+}
+.container
+{
+    width:300px;
+    padding:15px;
+    background-color:#a9a9a9;
+}
+h1
+{
+    color:orange;
+}
+.input-container
+{
+    display:flex;
+    margin:9px;
+}
+#taskInput
+{
+    padding:5px;
+}
+#addButton
+{
+    padding:5px 15px;
+    color:gray;
+    cursor:pointer;
+}
+#taskList
+{
+    padding:0;
+    color:purple;
+}
